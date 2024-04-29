@@ -1,0 +1,36 @@
+.portfolio-details {
+  padding: 20px;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+}
+
+.portfolio-details h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.portfolio-details p {
+  font-size: 16px;
+  color: #666;
+}
+
+.portfolio-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.portfolio-details li {
+  font-size: 16px;
+  color: #666;
+  padding-left: 20px; /* Add some indentation */
+}
+
+/* Spread items across the page */
+.portfolio-details .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-details .col-md-4 {
+  margin-bottom: 20px; /* Add space between columns */
+}

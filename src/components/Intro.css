@@ -1,0 +1,9 @@
+.intro-content {
+  display: flex;
+  /* align-items: center; */
+}
+
+.profile-image {
+  max-width: 100px;
+  border-radius: 20%;
+}

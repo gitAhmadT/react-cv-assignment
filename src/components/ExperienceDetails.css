@@ -1,0 +1,36 @@
+.experience-details {
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.experience-details h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.experience-details p {
+  font-size: 16px;
+  color: #666;
+}
+
+.experience-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.experience-details li {
+  font-size: 16px;
+  color: #666;
+  padding-left: 20px; /* Add some indentation */
+}
+
+/* Spread items across the page */
+.experience-details .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience-details .col-md-6 {
+  margin-bottom: 20px; /* Add space between columns */
+}
